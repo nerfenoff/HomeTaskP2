@@ -164,7 +164,7 @@ bool task10(double number, int k)
     return true;
 }
 
-int task11(double number, int k)
+bool task11(double number, int k)
 {
     if(k == 1) return true;
 
@@ -186,7 +186,7 @@ int task11(double number, int k)
     return (result1 || result2);
 }
 
-int task12(double number, int k)
+bool task12(double number, int k)
 {
     if(k == 1) return true;
 
